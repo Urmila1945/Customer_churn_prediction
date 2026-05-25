@@ -586,4 +586,28 @@ function App() {
               </div>
               <div className="grid gap-4 sm:grid-cols-2">
                 <div className="rounded-3xl bg-slate-950/80 p-5 border border-white/10">
-                  <p className="
+                  <p className="text-sm uppercase tracking-[0.28em] text-slate-400">Accuracy</p>
+                  <p className="mt-3 text-3xl font-semibold text-white">94%</p>
+                </div>
+                <div className="rounded-3xl bg-slate-950/80 p-5 border border-white/10">
+                  <p className="text-sm uppercase tracking-[0.28em] text-slate-400">F1 Score</p>
+                  <p className="mt-3 text-3xl font-semibold text-white">0.91</p>
+                </div>
+                <div className="rounded-3xl bg-slate-950/80 p-5 border border-white/10">
+                  <p className="text-sm uppercase tracking-[0.28em] text-slate-400">ROC-AUC</p>
+                  <p className="mt-3 text-3xl font-semibold text-white">0.96</p>
+                </div>
+                <div className="rounded-3xl bg-slate-950/80 p-5 border border-white/10">
+                  <p className="text-sm uppercase tracking-[0.28em] text-slate-400">Drift</p>
+                  <p className="mt-3 text-3xl font-semibold text-white">3.2%</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  );
+}
+
+export default App;
